@@ -9,5 +9,5 @@ node_js:
 script:
   - cp userdata/userdata.json.example userdata/userdata.json
   - npm run newkey
-  - ./node_modules/grunt-crx/node_modules/.bin/crx keygen
+  - ./node_modules/grunt-crx/node_modules/.bin/crx keygen .
   - npm run build
