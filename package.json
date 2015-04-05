@@ -1,7 +1,7 @@
 {
   "name": "shinseibank-autologin-ext",
   "version": "1.0.0",
-  "description": "",
+  "description": "Auto login tool for Shinseibank",
   "main": "index.js",
   "scripts": {
     "newkey": "grunt newkey",
