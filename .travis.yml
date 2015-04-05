@@ -7,4 +7,6 @@ node_js:
  - iojs
 
 script:
+  - cp userdata/userdata.json.example userdata/userdata.json
+  - npm run newkey
   - npm run build
