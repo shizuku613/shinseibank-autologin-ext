@@ -1,0 +1,27 @@
+{
+  "name": "shinseibank-autologin-ext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "newkey": "grunt newkey",
+    "build": "grunt build",
+    "watch": "grunt watch"
+  },
+  "author": "Shizuku Kono",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "coffeeify": "^1.0.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.6.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-coffee": "^0.13.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-uglify": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-crx": "^0.3.4",
+    "load-grunt-tasks": "^3.1.0",
+    "shinseibank-autologin-util": "git+https://github.com/shizuku613/shinseibank-autologin-util.git"
+  }
+}
