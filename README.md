@@ -17,6 +17,7 @@ $ vim userdata/userdata.json
 # Please edit user settings and .key file URL
 
 $ npm run build
+# Please install .crx file to your Google Chrome
 ```
 
 ## License
